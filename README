@@ -1,0 +1,3 @@
+Several questions about the dataset:
+1. the amount of stories is 1572 in documents.csv while it's 1567 in the paper.
+2. 09355a61a4d84807f9533f31d3263809cc486b6b in train data is missing and I can't find it in the website.
