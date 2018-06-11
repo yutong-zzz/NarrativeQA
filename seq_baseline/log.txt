@@ -1,0 +1,64 @@
+2018-06-08 10:31:35,847 - NarrativeQA - INFO - Running with args : Namespace(algo='SEQ2SEQ', batch_size=1, document_path='./data1', dropout_keep_prob=1, epochs=10, evaluate=False, gpu='0', learning_rate=0.001, log_path='./seq_baseline/log.txt', model_dir='./seq_baseline/saved_models/', optim='sgd', predict=False, prepare=False, result_dir='./seq_baseline/results/', summary_dir='./seq_baseline/summary/', train=True, vocab_dir='./data1/vocab/', weight_decay=0)
+2018-06-08 10:31:35,847 - NarrativeQA - INFO - Loading vocab...
+2018-06-08 10:32:01,612 - NarrativeQA - INFO - Train set size: 32717 questions.
+2018-06-08 10:32:01,612 - NarrativeQA - INFO - Valid set size: 3461 questions.
+2018-06-08 10:32:01,612 - NarrativeQA - INFO - Test set size: 10557 questions.
+2018-06-08 10:32:18,881 - NarrativeQA - INFO - Training the model for epoch 1
+2018-06-08 14:11:25,342 - NarrativeQA - INFO - Evaluating the model after epoch 1
+2018-06-08 14:18:09,773 - NarrativeQA - INFO - Dev eval loss 1.32271488724
+2018-06-08 14:18:09,774 - NarrativeQA - INFO - Dev eval Rouge-L score: 0.00327885521102
+2018-06-08 14:18:11,501 - NarrativeQA - INFO - Model saved in ./seq_baseline/saved_models/, with prefix SEQ2SEQ.
+2018-06-08 14:18:11,501 - NarrativeQA - INFO - Training the model for epoch 2
+2018-06-08 17:57:18,633 - NarrativeQA - INFO - Evaluating the model after epoch 2
+2018-06-08 18:04:00,375 - NarrativeQA - INFO - Dev eval loss 1.28251513033
+2018-06-08 18:04:00,375 - NarrativeQA - INFO - Dev eval Rouge-L score: 0.00278409562005
+2018-06-08 18:04:01,314 - NarrativeQA - INFO - Model saved in ./seq_baseline/saved_models/, with prefix SEQ2SEQ_2.
+2018-06-08 18:04:01,314 - NarrativeQA - INFO - Training the model for epoch 3
+2018-06-08 21:43:43,390 - NarrativeQA - INFO - Evaluating the model after epoch 3
+2018-06-08 21:50:25,264 - NarrativeQA - INFO - Dev eval loss 1.26517969704
+2018-06-08 21:50:25,265 - NarrativeQA - INFO - Dev eval Rouge-L score: 0.00312628920757
+2018-06-08 21:50:26,234 - NarrativeQA - INFO - Model saved in ./seq_baseline/saved_models/, with prefix SEQ2SEQ_3.
+2018-06-08 21:50:26,235 - NarrativeQA - INFO - Training the model for epoch 4
+2018-06-09 01:29:50,949 - NarrativeQA - INFO - Evaluating the model after epoch 4
+2018-06-09 01:36:32,027 - NarrativeQA - INFO - Dev eval loss 1.2620159817
+2018-06-09 01:36:32,027 - NarrativeQA - INFO - Dev eval Rouge-L score: 0.00337005632121
+2018-06-09 01:36:38,155 - NarrativeQA - INFO - Model saved in ./seq_baseline/saved_models/, with prefix SEQ2SEQ.
+2018-06-09 01:36:38,155 - NarrativeQA - INFO - Training the model for epoch 5
+2018-06-09 05:15:51,452 - NarrativeQA - INFO - Evaluating the model after epoch 5
+2018-06-09 05:22:33,696 - NarrativeQA - INFO - Dev eval loss 1.25041611095
+2018-06-09 05:22:33,696 - NarrativeQA - INFO - Dev eval Rouge-L score: 0.00328533494006
+2018-06-09 05:22:34,663 - NarrativeQA - INFO - Model saved in ./seq_baseline/saved_models/, with prefix SEQ2SEQ_5.
+2018-06-09 05:22:34,663 - NarrativeQA - INFO - Training the model for epoch 6
+2018-06-09 09:01:48,007 - NarrativeQA - INFO - Evaluating the model after epoch 6
+2018-06-09 09:08:38,446 - NarrativeQA - INFO - Dev eval loss 1.23912196023
+2018-06-09 09:08:38,447 - NarrativeQA - INFO - Dev eval Rouge-L score: 0.00352671600799
+2018-06-09 09:08:43,981 - NarrativeQA - INFO - Model saved in ./seq_baseline/saved_models/, with prefix SEQ2SEQ.
+2018-06-09 09:08:43,982 - NarrativeQA - INFO - Training the model for epoch 7
+2018-06-09 12:48:16,765 - NarrativeQA - INFO - Evaluating the model after epoch 7
+2018-06-09 12:54:59,623 - NarrativeQA - INFO - Dev eval loss 1.24993222453
+2018-06-09 12:54:59,624 - NarrativeQA - INFO - Dev eval Rouge-L score: 0.00360637056024
+2018-06-09 12:55:05,461 - NarrativeQA - INFO - Model saved in ./seq_baseline/saved_models/, with prefix SEQ2SEQ.
+2018-06-09 12:55:05,462 - NarrativeQA - INFO - Training the model for epoch 8
+2018-06-09 16:34:28,030 - NarrativeQA - INFO - Evaluating the model after epoch 8
+2018-06-09 16:41:11,846 - NarrativeQA - INFO - Dev eval loss 1.23604066412
+2018-06-09 16:41:11,846 - NarrativeQA - INFO - Dev eval Rouge-L score: 0.00365259412198
+2018-06-09 16:41:17,899 - NarrativeQA - INFO - Model saved in ./seq_baseline/saved_models/, with prefix SEQ2SEQ.
+2018-06-09 16:41:17,899 - NarrativeQA - INFO - Training the model for epoch 9
+2018-06-09 20:20:38,047 - NarrativeQA - INFO - Evaluating the model after epoch 9
+2018-06-09 20:27:21,296 - NarrativeQA - INFO - Dev eval loss 1.23276112459
+2018-06-09 20:27:21,296 - NarrativeQA - INFO - Dev eval Rouge-L score: 0.00351780676075
+2018-06-09 20:27:22,260 - NarrativeQA - INFO - Model saved in ./seq_baseline/saved_models/, with prefix SEQ2SEQ_9.
+2018-06-09 20:27:22,260 - NarrativeQA - INFO - Training the model for epoch 10
+2018-06-10 00:07:26,914 - NarrativeQA - INFO - Evaluating the model after epoch 10
+2018-06-10 00:14:04,507 - NarrativeQA - INFO - Dev eval loss 1.24400860997
+2018-06-10 00:14:04,508 - NarrativeQA - INFO - Dev eval Rouge-L score: 0.00393725973005
+2018-06-10 00:14:10,456 - NarrativeQA - INFO - Model saved in ./seq_baseline/saved_models/, with prefix SEQ2SEQ.
+2018-06-10 00:14:10,457 - NarrativeQA - INFO - Done with model training!
+2018-06-11 15:54:41,994 - NarrativeQA - INFO - Running with args : Namespace(algo='SEQ2SEQ', batch_size=1, document_path='./data1', dropout_keep_prob=1, epochs=10, evaluate=False, gpu='0', learning_rate=0.001, log_path='./seq_baseline/log.txt', model_dir='./seq_baseline/saved_models/', optim='sgd', predict=False, prepare=False, result_dir='./seq_baseline/results/', summary_dir='./seq_baseline/summary/', train=False, vocab_dir='./data1/vocab/', weight_decay=0)
+2018-06-11 15:54:41,994 - NarrativeQA - INFO - Loading vocab...
+2018-06-11 15:55:10,827 - NarrativeQA - INFO - Train set size: 32717 questions.
+2018-06-11 15:55:10,827 - NarrativeQA - INFO - Valid set size: 3461 questions.
+2018-06-11 15:55:10,827 - NarrativeQA - INFO - Test set size: 10557 questions.
+2018-06-11 15:55:17,574 - NarrativeQA - INFO - Model restored from ./seq_baseline/saved_models/, with prefix SEQ2SEQ
+2018-06-11 16:02:28,694 - NarrativeQA - INFO - Result on valid set: Bleu_1:0.00363896112235, Bleu_4:0, ROUGE_L:0.00393725973005, METEOR:0.00344045466654
+2018-06-11 16:09:59,349 - NarrativeQA - INFO - Result on test set: Bleu_1:0.00363896112235, Bleu_4:0, ROUGE_L:0.00393725973005, METEOR:0.00344045466654
